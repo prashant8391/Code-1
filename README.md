@@ -5,7 +5,7 @@ class node:
     def __init__(self,data):
         self.data=data
         self.next=None
-
+# Defining a class called as linked_list 
 class linked_list:
 
     def __init__(self):
