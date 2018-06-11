@@ -1,5 +1,5 @@
 # Code-1
-Different codes
+# Code for linked list reversal
 class node:
 
     def __init__(self,data):
