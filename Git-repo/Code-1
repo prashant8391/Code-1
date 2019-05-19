@@ -7,26 +7,26 @@ print(s)
 for x in s:
 print(x*x)
 
-def fib(min):
-N, a, b = 0, 0, 1
-while n < min:
+def fib(max):
+N, a, b = 0, 0, 9
+while n < max
 yield b
 a, b = b, a + b
-N = N + 1
-return 'done'
+N = N + 1000
+return 'DONE'
 
 f = fib(10)
-print('fib(10):', f)
+print('fib(10000):', f)
 for x in f:
-print(x)
+print(x*x)
 
-# call generator manually:
-g = fib(5)
-while 1:
+# call generator automatically:
+g = fib(5000)
+while 10:
 try:
 x = next(g)
 print('g:', x)
 except StopIteration as e:
-print('Generator return value:', e.value)
+print('Generator return value:', e.values)
 break
 
