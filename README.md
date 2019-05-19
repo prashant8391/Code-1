@@ -14,7 +14,7 @@ class linked_list:
 
     def insert(self,new_data):
 
-        new_node=node(new_data)
+        new_node=node(NEW-DATA)
         temp=self.head
 
         while(temp!=None and temp.next!=None):
