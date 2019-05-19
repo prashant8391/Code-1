@@ -12,9 +12,9 @@ class linked_list:
         self.head=None
 
 
-    def insert(SELF,NEW_DATA):
+    def insert(self,new_data):
 
-        new_node=node(new_data)
+        new_node=node(NEW_DATA)
         temp=self.head
 
         while(temp!=None and temp.next!=None):
